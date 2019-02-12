@@ -1,0 +1,84 @@
+/* sale display */
+.sale-display{
+    padding-top: 50px;
+}
+.sale-show{
+    position: relative;
+    height: 400px;
+}
+.sale-show .sale-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 160px;
+    height: 1110px;
+    padding-top: 40px;
+    margin:20px;
+    background: url(../img/aftersale.png)no-repeat top;
+}
+.sale-caption a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-top: 3px;
+    font-size: 12px;
+    display: inline-block;
+    background: #e0e0e0;
+    box-shadow:2px 0px 2px #f1eeee inset; 
+}
+.sale-caption a:first-child{
+    background: #3b3b3b;
+    color: #ffffff;
+}
+
+.sale-banner{
+    position: absolute;
+    top: 20px;
+    left: 215px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #838383;
+}
+
+.sale-tab-box{
+    position: relative;
+    margin-left: 200px;
+    width: 950px;
+    height: 1800px;
+    font-size: 12px;
+}
+.sale-tab-box .sale-tab{
+    display: none;
+    position: absolute;
+    width: 950px;
+    top: 0px;
+    left: 0x;
+}
+.sale-tab-box .sale-tab .sale-item{
+    width: 100%;
+}
+
+.sale-tab-box .active{
+    display: block;
+}
+
+.sale-item .mb{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+
+
+
+/* footer */
+.footer{
+    position: relative;
+    color:#cccccc;
+    background: #f7f2f2;
+    top: 25PX;
+}
+
+

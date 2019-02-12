@@ -1,0 +1,101 @@
+/* 通用样式 */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	color: #079FE1;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.blue{
+	color: #079FE1;
+}
+.shadow{
+    box-shadow:#b9b7b1 0px 0px 10px;
+}
+.clearfix:after{
+  content: ""; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+hr{
+	background-color: #006894;
+	height: 1px;
+}
+.gray{
+	background: #ebebeb;
+}
+
+
+/* 顶部导航 */
+header{
+	height: 100px;
+	position: relative;
+}
+header .call{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	height: 50px;
+}
+header .call .h5{
+	color: #079fe1;
+}
+header .head{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	top: 50px;
+}
+header .head .logo img,
+header .head .logo{
+	height: 50px;
+}
+header .head-left span{
+	font-size: 35px;
+	margin: 0 5px;
+	font-weight: 100;
+}
+header .head-left h1{
+	font-weight: 400;
+	font-size: 20px;
+}
+header .head-right ul li{
+	width: 80px;
+	text-align: center;
+	display: inline-block;
+}
+header .head-right ul li a:hover{
+	color: #079FE1;
+}
+
+
+
+/* footer */
+footer{
+	height: 50px;
+	line-height: 50px;
+	background: #ebebeb;
+	text-align: center;
+}

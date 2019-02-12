@@ -1,0 +1,269 @@
+/* banner轮播图 */
+.banner-box{
+	position: relative;
+	height: 420px;
+}
+.banner{
+	position: relative;
+	height: 420px;
+	overflow: hidden;
+}
+.banner .slide{
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 420px;
+	display: none;
+}
+.banner .active{
+	display: block;
+}
+.banner .slide a,
+.banner .slide img{
+	width: 100%;
+	height: 420px;
+}
+
+.banner-bottom{
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	margin-left: -395px;
+	bottom: -30px;
+	z-index: 2;
+}
+.banner-bottom li{
+	float: left;
+	width: 150px;
+	height: 60px;
+	margin-left: 10px;
+	box-sizing: border-box;
+}
+.banner-bottom li img{
+	width: 150px;
+	height: 60px;
+}
+
+
+/* recommend */
+.recommend{
+	position: relative;
+	height: 500px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+.recommend .head{
+	margin-bottom: 10px;;
+}
+.recommend .head span{
+	color: #079FE1;
+}
+.recommend .head a{
+	margin-left: 15px;
+	font-size: 12px;
+}
+.recommend-product{
+	position: relative;
+	top: 0;
+	left: 0px;
+	width: 1200px;
+}
+.recommend-container{
+	width: 3600px;
+	height: 382px;
+}
+.product-item{
+	float: left;
+	width: 300px;
+	border: #d6d8da 1px solid;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.product-item img{
+	width: 100%;
+}
+.product-item .model{
+	height: 60px;
+	color: #079FE1;
+	font-size: 20px;
+	font-weight: 400;
+}
+.product-item .item-detail{
+	height: 150px;
+	font-size: 14px;
+	padding: 5px;
+}
+.product-item >a{
+	padding: 5px;
+	font-size: 12px;
+}
+.recommend > a{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 35%;
+	background: #000000;
+	opacity: .1;
+	text-align: center;
+}
+.recommend > a:hover{
+	opacity: .8;
+}
+.recommend > a img{
+	margin-top: 5px;
+	width: 12px;
+	height: 20px;
+}
+.recommend .slider-control-left{
+	left: 0;
+}
+.recommend .slider-control-right{
+	right: 0;
+}
+
+
+/* news */
+.news{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 50px;
+	font-size: 14px;
+	color: #666666;
+}
+.news-top{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: #9e9a9a solid 1px;
+}
+.news-top > div {
+	flex: 1;
+}
+.news-center p span{
+	color: #079FE1;
+}
+.news-center p a{
+	margin-left: 15px;
+	font-size: 12px;
+}
+.news-center{
+	height: 300px;
+	border-right: #9e9a9a solid 1px;
+}
+.news-center-item{
+	display: flex;
+	margin-top: 15px;
+}
+.news-center-item img{
+	width: 220px;
+}
+.news-center-item p{
+	width: 270px;
+	margin-left: 30px;
+}
+.news-center-item p:hover{
+	color: #079FE1;
+	cursor: pointer;
+}
+.news-center-item div p:nth-child(2){
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.contact{
+	height: 300px;
+}
+.contact h2{
+	font-size: 20px;
+	font-weight: 400;
+	color: #079FE1;
+	margin-left: 20px;
+}
+.contact img{
+	height: 260px;
+}
+.contact > div{
+	float: right;
+	width: 300px;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+.contact > div :nth-child(1){
+	color: #079FE1;
+	font-size: 24px;
+}
+.contact > div p{
+	line-height: 30px;
+}
+
+.news-bottom{
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.news-bottom > div{
+	flex: 1;
+}
+.news-bottom .service{
+	padding-top: 40px;
+	display: flex;
+	border-right: #9e9a9a solid 1px;
+}
+.news-bottom .service-img{
+	flex: 1;
+}
+.news-bottom .service-text{
+	margin: 20px;
+	flex: 3;
+}
+
+.service-text p{
+	line-height: 30px;
+}
+.service-text :nth-child(1){
+	color: #079FE1;
+	font-size: 24px;
+	font-weight: 400;
+}
+.service-text :nth-child(3){
+	color: #079FE1;
+}
+
+
+.introduction{
+	margin-top: 10px;
+}
+.introduction >p{
+	color: #079FE1;
+	font-size: 20px;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+.introduction .figure{
+	margin-top:20px; 
+	padding-left: 20px;
+	display: flex;
+}
+.introduction .figure img{
+	width: 250px;
+}
+.introduction .figure > div{
+	width: 300px;
+	height: 118px;
+	text-indent: 2em;
+	margin-left: 10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:4; 
+	-webkit-box-orient:vertical;
+}
+.introduction .figure > div p{
+	line-height: 30px;
+}
